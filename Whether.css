@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Tapestry&display=swap');
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: blue;
+}
+body{
+    background-image: url("https://i.pinimg.com/736x/91/4c/8a/914c8ad918ebadc9b8a23a18bd592c6d.jpg");
+}
+.container .weather-card{
+    border: 3px solid rgb(81, 65, 65);
+    /* top right bottom left */
+    margin: 200px auto 100px auto;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 5%;
+    background-color: rgb(87, 236, 49);
+}
+h1,h2,h3,h4,h5{
+    padding: 10px;
+}
+#cityName{
+    padding: 10px;
+
+}
+h2{
+    font-size: 20px;
+}
+#searchBtn{
+    padding: 10px;
+}
